@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "ru.vkprofi.packetDoubler.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+      "PacketEncoderMixin",
+      "PacketInflaterMixin"
+    ],
+    "client": [
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    }
+  }
